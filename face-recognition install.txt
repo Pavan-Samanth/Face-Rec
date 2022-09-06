@@ -1,0 +1,12 @@
+1. Install cmake and add it to path https://cmake.org/download/
+
+2. Install visual studio and in that add desktop development tools with c++
+
+3. Download winrar file from https://files.pythonhosted.org/packages/e5/3b/7a8522a5c2ef6ff6252e46b0788b3d2c2280198c49d6ecf3b576b171045f/dlib-19.24.0.tar.gz
+Extract the files, put it in folder and run command python setup.py install
+
+If you got an sub process error then run the below commands:
+pip install --upgrade setuptools
+python setup.py install --no DLIB_GIF_SUPPORT
+
+4. now install face recognition by command pip install face-recognition
